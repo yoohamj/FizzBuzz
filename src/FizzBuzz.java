@@ -7,8 +7,8 @@ class FizzBuzz {
 
         int i = 1;
         while (i < 100) {
-
-            i = doFizzBuzz(i);
+            doFizzBuzz(i);
+            i += 1;
         }
     }
 
@@ -35,7 +35,6 @@ class FizzBuzz {
             System.out.println(i);
 
         }
-        i += 1;
         return i;
     }
 }
